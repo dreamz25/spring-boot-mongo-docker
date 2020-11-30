@@ -1,7 +1,7 @@
 version: "3.8"
 services:
   springboot:
-    image: dockerdreamz25/spring-boot-mongo:version
+    image: dockerdreamz25/spring-boot-mongo:TAG
     environment:
     - MONGO_DB_HOSTNAME=mongo
     ports:
