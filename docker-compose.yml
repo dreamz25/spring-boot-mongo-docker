@@ -1,4 +1,4 @@
-version: '3'
+version: '1'
 services:
   springboot:
     image: dockerdreamz25/spring-boot-mongo:version
