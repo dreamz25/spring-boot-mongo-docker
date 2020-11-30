@@ -5,15 +5,15 @@ services:
     environment:
     - MONGO_DB_HOSTNAME=mongo
     ports:
-    - 9090:8080
+      - 9090:8080
     networks:
-    - springappnetwork  
+      - springappnetwork  
   mongo:
     image: mongo
     volumes:
-    - mongodb:/data/db
+      - mongodb:/data/db
     networks:
-    - springappnetwork
+      - springappnetwork
 volumes:
   mongodb:
 networks:
